@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		.header{
+			border-bottom: 1px solid #dadada;
+			height: 100px;
+			position: relative;
+			flex-shrink: 0;
+		}
+		.Form{
+  			text-align: center;
+ 			padding: 20px;
+
+		}
+		h1{
+  			font-size: 24px;
+  			margin-bottom: 20px;
+		}
+		.forms{
+			width: 900px;
+			height: 500px;
+			font-size: 30px;
+  			padding: 20px;
+  			padding-top: 0px;
+  			border: 2px solid; 
+ 	 		margin: 50px auto;
+  			background-color: white;
+  			text-align: left;
+  			border-color: #dadada;
+		}
+		.submit{
+	  		background-color: #4CAF50;
+  			color: white;
+  			padding: 14px 20px;
+			border: none;
+  			border-radius: 4px;
+  			cursor: pointer;
+		}
+		input[type="email"],
+		input[type="password"]{
+			padding: 15px;
+			width: 600px;
+			border-style: solid;
+			border-color: transparent;
+			border-bottom: solid, 1px;
+			border-bottom-color: #dadada;
+			background-color: #f7f7f7;
+		}
+		input[type="submit"]:hover{
+ 			background-color: lightgray;
+		}	
+		.login{
+  			display: flex;
+  			align-items: center;
+ 	 		margin-bottom: 10px;
+  			margin-right: 5px;
+	</style>
+</head>
+<body>
+	<div class="contianer">
+		<div class="header">
+			<div class="image">
+				<img src="Uniqlo.jpg" style="width: 100px; height: auto; padding-left: 500px; padding-top: 20px; flex-shrink: 0;">
+			</div>
+		</div>
+	<div class="Form">
+ 		<div class="forms">
+ 			<div class="questions">
+ 			<p style="font-family: HelveticaNeue, sans-serif;";><b>LOGIN</b></p>
+ 			<p style="font-size: 16px; font-family: Arial, sans-serif;">Enter your email and password.</p>
+   			<label for="email" style="font-size: 15px; font-family: HelveticaNeue, sans-serif;"><b>Email address:<b></label> <br>
+    		<input type="email" placeholder="Enter valid email"> <br>
+   			<label for="password" style="font-size: 15px; font-family: HelveticaNeue, sans-serif;">Password:</label> <br>
+    		<input type="password" placeholder="Password must be at least 8 characters and contain letters and numbers"> <br>
+    		<label></label> <br>
+    		<input type="submit" value="LOG IN" style="background-color: #1b1b1b; color: white; width: 300px; padding: 12px; font-size: 20px;">
+    		<p>Dont have an account? Sign up here.</p>
+    		</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

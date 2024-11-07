@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project_Dimabuyu</title>
+</head>
+<style>
+	.header{
+		background-color: white; 
+        color: #ffcc00; 
+        text-align: center;
+        position: relative;
+        border-bottom: solid 2px;
+        border-bottom-color: #dadada;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 100px;
+	}
+	.links{
+       	font-family: Roboto, sans-serif;
+        color: black;
+        display: flex;
+        justify-content: center;
+		align-items: center;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 30px;
+        display: inline-flex;
+	}
+	.links a{
+		text-decoration: none;
+		padding-left: 20px;
+		font-family: Trebuchet MS, sans-serif;
+	}
+	.links a:hover{
+		color: gray !important;
+	}
+	.headerimage{
+		justify-content: center;
+		align-items: center;
+	}
+	.links h5{
+		font-size: 27px;
+		justify-content: center;
+		align-items: center;
+		display: inline-flex;
+		padding-bottom: 20px !important;
+		position: relative;
+	}
+	.posters{
+		display: inline-flex;
+		height: auto;
+		object-fit: cover;
+		padding: 10px;
+	}
+	.posters img{
+		width: 50%;
+		padding: 0px;
+	}
+	.main{
+		border-bottom: solid 3px;
+		border-bottom-color: #dadada;
+	}
+	.column,
+	.column2,
+	.column3{
+    	display: flex;
+    	justify-content: space-around;
+    	flex-wrap: wrap;
+    	gap: 20px;
+    }
+    .products{
+    	width: 500px;
+    	height: auto;
+    }
+    .products:hover {
+    	transform: scale(1.05);
+    	transition: transform 0.3s ease;
+}
+    .item{
+    	font-family: Trebuchet MS, sans-serif;
+    }
+    .main h2{
+    	text-align: center;
+    	font-family: Trebuchet MS, sans-serif;
+    	color: black;
+    	background-color: whitesmoke;
+    	padding: 5px;
+    	font-size: 30px;
+    	border-style: solid;
+    	border-color: transparent;
+    	border-bottom-color: #dadada;
+    }
+</style>
+<body>
+	<div class="header">
+		<div class="image">
+			<img src="Uniqlo.jpg" class="headerimage" style="width: 100px; height: auto"> <img src="KAWS.jpg" class="headerimage" style="width: auto; height: 60px; padding-left: 0";>
+		</div>
+		<div class="links">
+			<div class="nav">
+			<h5><a href="#sweatshirts" style="padding-right: 20px; color: black;">SWEATSHIRTS</a>
+			<a href="#shirts&pants" style="padding-right: 20px; color: black">SHIRTS & PANTS</a>
+			<a href="#jackets&others" style="padding-right: 20px; color: black">JACKETS & OTHERS</a>
+			</div>
+			<h5><a href="login.html" target="_self" style="padding-right: 0px; color: black"> LOG IN </a> | <a href="signup.html" target="_self" style="padding-left: 0px; color: black"> SIGN UP </a></h5>
+		</div>
+	</div>
+	<div class="main">
+		<div class="posters">
+			<img src="kawswarhol3.jpg" class="posters" style="width: 40.3%"><img src="KawsWarhol.webp" class="posters" style="width: 80% !important">
+		</div>
+		<h2 id="sweatshirts"> SWEATSHIRTS</h2>
+        <div class="column">
+            <div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E472951-000?colorCode=COL03&sizeCode=SMA004" target="_blank">
+                <img src="sweater1.avif" class="products"> </a>
+                <p><b>KAWS + Warhol Sweatshirt</b> – ₱1,490.00 <br><b>Color: 03 GRAY</b></p>
+            </div>
+            <div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E476119-000?colorCode=COL09&sizeCode=SMA004" target="_blank"> <img src="sweater2.avif" class="products"> </a>
+                <p><b>KAWS + Warhol Sweatshirt</b> – ₱1,490.00 <br><b>Color: 09 BLACK</b></p>
+        	</div>
+        </div>
+        <h2 id="shirts&pants">SHIRTS & PANTS</h2>
+        <div class="column2">
+            <div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E471321-000?colorCode=COL00&sizeCode=SMA003" target="_blank"> <img src="shirt1.avif" class="products"> </a>
+                <p><b>KAWS + Warhol UT</b> – ₱790.00 <br><b>Color: 00 WHITE</b></p>
+            </div>
+            <div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E476352-000?colorCode=COL09&sizeCode=SMA003" target="_blank"> <img src="shirt2.avif" class="products"> </a>
+                <p><b>KAWS + Warhol UT</b> – ₱790.00 <br><b>Color: 09 BLACK</b></p>
+            </div>
+            <div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E476350-000?colorCode=COL00&sizeCode=SMA003" target="_blank"> <img src="shirt3.avif" class="products"> </a>
+                <p><b>KAWS + Warhol UT</b> – ₱790.00 <br><b>Color: 00 WHITE</b></p>
+            </div>
+            <div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E476351-000?colorCode=COL09&sizeCode=SMA003" target="_blank"> <img src="shirt4.avif" class="products"> </a>
+                <p><b>KAWS + Warhol UT</b> – ₱790.00 <br><b>Color: 09 BLACK</b></p>
+        	</div>
+        	<div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E473557-000?colorCode=COL03&sizeCode=SMA004" target="_blank"> <img src="pants1.avif" class="products"> </a>
+                <p><b>KAWS + Warhol Sweatpants</b> – ₱1,490.00 <br><b>Color: 03 GRAY</b></p>
+        	</div>
+        	<div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E476120-000?colorCode=COL09&sizeCode=SMA004" target="_blank"> <img src="pants2.avif" class="products"> </a>
+                <p><b>KAWS + Warhol Sweatpants</b> – ₱1,490.00 <br><b>Color: 09 BLACK</b></p>
+        	</div>
+		</div>
+			 <h2 id="jackets&others">JACKETS & OTHERS</h2>
+        <div class="column3">
+            <div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E474138-000?colorCode=COL09&sizeCode=SMA004" target="_blank"> <img src="jacket1.avif" class="products"> </a>
+                <p><b>KAWS + Warhol Coach Jacket</b> – ₱2,990.00 <br><b>Color: 09 BLACK</b></p>
+            </div>
+            <div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E476316-000?colorCode=COL69&sizeCode=SMA004" target="_blank"> <img src="jacket2.avif" class="products"> </a>
+                <p><b>KAWS + Warhol Coach Jacket</b> – ₱2,990.00 <br><b>Color: 69 NAVY</b></p>
+            </div>
+            <div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E476519-000?colorCode=COL00&sizeCode=MSC025" target="_blank"> <img src="socks1.avif" class="products"> </a>
+                <p><b>KAWS + Warhol Socks</b> – ₱200.00 <br><b>Color: 00 WHITE</b></p>
+            </div>
+            <div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E473504-000?colorCode=COL09&sizeCode=MSC025" target="_blank"> <img src="socks2.avif" class="products"> </a>
+                <p><b>KAWS + Warhol Socks</b> – ₱200.00 <br><b>Color: 09 BLACK</b></p>
+        	</div>
+        	<div class="item" style="background-color: whitesmoke;">
+                <a href="https://www.uniqlo.com/ph/en/products/E475752-000?colorCode=COL99" target="_blank"> <img src="book.avif" class="products"> </a>
+                <p><b>KAWS + Warhol ARTBOOK</b> – ₱3,990.00 <br><b>Color: 99 OTHER</b></p>
+        	</div>
+        </div>
+    </div>
+
+</body>
+</html>
